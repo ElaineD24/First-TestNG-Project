@@ -2,7 +2,6 @@ package firsttestngpackage;
 
 //import java.sql.Time;
 import java.util.ArrayList;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,12 +23,10 @@ public class FirstTestNGFile {
 		System.setProperty("webdriver.chrome.driver", driverPath);
 		driver = new ChromeDriver();
 		driver.get(facebookUrl);
-		
 	}
 	
 	@BeforeMethod
 	public void verifyFacebookHomepageTitle() {
-		
 		String expectedTitle = "Facebook - Log In or Sign Up";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
