@@ -5,4 +5,4 @@ Make sure you have:
 
 - installed TestNG in your IDE
 - downloaded Selenium
-- changed the "driverPath" in FirstTestNGFile to your own driver path
+- changed the "driverPath" in FirstTestNGFile.java to your own driver path
