@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13799" started-at="2018-09-10T17:53:18Z" finished-at="2018-09-10T17:53:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13799" started-at="2018-09-10T17:53:18Z" finished-at="2018-09-10T17:53:32Z">
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="launchBrowser" is-config="true" duration-ms="4863" started-at="2018-09-10T17:53:18Z" finished-at="2018-09-10T17:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyFacebookHomepageTitle()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="verifyFacebookHomepageTitle" is-config="true" duration-ms="8" started-at="2018-09-10T17:53:23Z" finished-at="2018-09-10T17:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookHomepageTitle -->
+        <test-method status="PASS" signature="readTerms()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="readTerms" duration-ms="1192" started-at="2018-09-10T17:53:23Z" description="Verifies that the location for retreiving &#039;read terms&#039; exists." finished-at="2018-09-10T17:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTerms -->
+        <test-method status="PASS" signature="backToHomepage()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="backToHomepage" is-config="true" duration-ms="601" started-at="2018-09-10T17:53:24Z" finished-at="2018-09-10T17:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomepage -->
+        <test-method status="PASS" signature="verifyFacebookHomepageTitle()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="verifyFacebookHomepageTitle" is-config="true" duration-ms="305" started-at="2018-09-10T17:53:25Z" finished-at="2018-09-10T17:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookHomepageTitle -->
+        <test-method status="PASS" signature="forgotAccount()[pri:1, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="forgotAccount" duration-ms="728" started-at="2018-09-10T17:53:25Z" description="Verifies that the location for retreiving password exists." finished-at="2018-09-10T17:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotAccount -->
+        <test-method status="PASS" signature="backToHomepage()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="backToHomepage" is-config="true" duration-ms="962" started-at="2018-09-10T17:53:26Z" finished-at="2018-09-10T17:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomepage -->
+        <test-method status="PASS" signature="verifyFacebookHomepageTitle()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="verifyFacebookHomepageTitle" is-config="true" duration-ms="5" started-at="2018-09-10T17:53:27Z" finished-at="2018-09-10T17:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookHomepageTitle -->
+        <test-method status="PASS" signature="createAPage()[pri:2, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="createAPage" duration-ms="948" started-at="2018-09-10T17:53:27Z" description="Verifies that the location for retreiving &#039;create a page&#039; exists." finished-at="2018-09-10T17:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAPage -->
+        <test-method status="PASS" signature="backToHomepage()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="backToHomepage" is-config="true" duration-ms="980" started-at="2018-09-10T17:53:28Z" finished-at="2018-09-10T17:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomepage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:firsttestngpackage.FirstTestNGFile@724af044]" name="closeBrowser" is-config="true" duration-ms="3183" started-at="2018-09-10T17:53:29Z" finished-at="2018-09-10T17:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
